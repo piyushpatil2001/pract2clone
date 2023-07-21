@@ -1,0 +1,34 @@
+use git merge to merge your changes to the primary branch
+
+$ git clone https://github.com/piyushpatil2001/dream.git
+
+$ cd dream
+
+$ touch dre.txt
+
+$ git add dre.txt
+
+$ git config  user.email "piyushhhh2001@gmail.com"
+
+$ git config user.name "piyushpatil2001"
+
+
+$ git commit -m "dream commit"
+
+$ git branch piy
+
+$ git checkout main
+
+$ git  checkout piy
+
+$ touch dre2.txt
+
+$ git add dre2.txt
+
+$ git commit -m "piy res"
+
+$ git merge main
+
+$ git status
+
+$ git branch --list

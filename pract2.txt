@@ -1,0 +1,8 @@
+2...clone the repository
+
+
+$ git clone https://github.com/piyushpatil2001/pract2clone.git
+
+
+clone file saved in window c and user folder
+clone- save copy

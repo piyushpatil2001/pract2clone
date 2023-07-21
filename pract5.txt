@@ -1,0 +1,14 @@
+5...use git pull to get your partners change into your repository verify that you have the new files
+
+
+The "git pull" command. The pull command is used to access the changes (commits)from a remote repository to the local repository
+
+
+
+$ cd pract55
+
+
+$ git init pract55
+
+
+$ git pull https://github.com/piyushpatil2001/pract55.git

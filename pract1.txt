@@ -1,0 +1,5 @@
+1... set upa github account and send an email a message to friend telling to your friend about  the account
+
+definations
+
+create git account and login

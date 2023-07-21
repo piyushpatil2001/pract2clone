@@ -1,0 +1,22 @@
+7..use git branch to create a new branch and git checkout to switch to the branch
+
+$ cd pract55
+
+$ git checkout main
+
+$ git init pract55
+
+$ git branch branch1
+
+
+$ git checkout branch1
+
+$ touch pra.txt
+
+$ git add pra.txt
+
+$ git commit -m "next branch"
+
+$ git push -u origin branch1
+  The git push command is used to upload local repository content to  
+  a remote repository.

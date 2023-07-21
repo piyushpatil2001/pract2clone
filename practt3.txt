@@ -1,0 +1,26 @@
+3... use git add to the file to the repository use git commit to commit your changes
+
+
+$ cd pract2clone
+
+$ touch newfile.txt
+
+$ git add newfile.txt
+
+$ git config user.email "piyushhhh2001@gmail.com"
+
+$ git config user.name "piyushpatil2001"
+
+$ git commit -m "my first commit"
+
+
+
+
+
+
+
+cd - working flow
+touch - updated and access
+add - add files in storage
+commit - core building block units git project timeline
+commit error thean enter user name and email

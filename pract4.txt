@@ -1,0 +1,20 @@
+4... use git push to send your change to  the primary repository  look online to see if your changes has been pushed
+
+init - create new repository
+   stored in local storade
+
+ pushed - The git push command is used to upload local repository content to a remote repository. 
+
+
+$  git init mca
+
+$ touch mca1.txt
+
+$ git status
+
+$ git add mca1.txt
+
+$ git commit -m "first commit"
+
+$ git push -u origin main
+-connect local to remote

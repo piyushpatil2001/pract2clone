@@ -1,0 +1,37 @@
+9... demonstrate the use of git diff command
+ ---
+
+Diffing is a function that takes two input data sets and outputs the changes between them. git diff is a multi-use Git command that when executed runs a diff function on Git data sources. These data sources can be commits, branches, files and more.
+
+
+
+
+piyus@LAPTOP-QST7LLLJ MINGW64 ~
+$ cd dream
+
+piyus@LAPTOP-QST7LLLJ MINGW64 ~/dream (piy)
+$ git status
+On branch piy
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   dre.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+piyus@LAPTOP-QST7LLLJ MINGW64 ~/dream (piy)
+$ git diff
+diff --git a/dre.txt b/dre.txt
+index e69de29..91411f8 100644
+--- a/dre.txt
++++ b/dre.txt
+@@ -0,0 +1 @@
++piyua
+
+piyus@LAPTOP-QST7LLLJ MINGW64 ~/dream (piy)
+$
+
+
+
+
+check difference between edited non edited files

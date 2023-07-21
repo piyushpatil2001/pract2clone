@@ -1,0 +1,36 @@
+$ git branch b2
+
+
+piyus@LAPTOP-QST7LLLJ MINGW64 ~/fpp (b2)
+$ git diff
+
+piyus@LAPTOP-QST7LLLJ MINGW64 ~/fpp (b2)
+$ touch bb.txt
+
+piyus@LAPTOP-QST7LLLJ MINGW64 ~/fpp (b2)
+$ git add bb.txt
+
+piyus@LAPTOP-QST7LLLJ MINGW64 ~/fpp (b2)
+$ git commit -m "commit diff"
+[b2 63bb208] commit diff
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 bb.txt
+ create mode 100644 new.txt
+
+piyus@LAPTOP-QST7LLLJ MINGW64 ~/fpp (b2)
+$ git diff main
+diff --git a/bb.txt b/bb.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/dre.txt b/dre.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/new.txt b/new.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/p1.txt b/p1.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/pra.txt b/pra.txt
+new file mode 100644
+index 0000000..e69de29

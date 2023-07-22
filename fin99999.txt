@@ -1,0 +1,17 @@
+$ touch hg.txt
+
+
+$  git add hg.txt
+
+$ git commit -m "fcom"
+
+add file some txt
+
+$ git diff
+diff --git a/hg.txt b/hg.txt
+index e69de29..a87690e 100644
+--- a/hg.txt
++++ b/hg.txt
+@@ -0,0 +1 @@
++hi modijhhhkjljlj
+\ No newline at end of file
